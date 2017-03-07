@@ -10,5 +10,5 @@ Class:
   Nora Bulovic, 
   Rebecca Mathew,
   Pip Fletcher,
-  Erin Kim
-  Disha Sankholkar
+  Erin Kim,
+  Disha Sankholkar,
