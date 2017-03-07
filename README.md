@@ -17,7 +17,7 @@ Class:
   Anika Ruberti,
   Shruti Mohan,
   Lily Aldairy,
- Harshini Pathivada
-Sarah Semy
+  Harshini Pathivada,
+  Sarah Semy,
   Tiernan Leschner,
-  Sue Purohit
+  Sue Purohit,
