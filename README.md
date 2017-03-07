@@ -18,3 +18,4 @@ Class:
   Shruti Mohan,
   Lily Aldairy,
  Harshini Pathivada
+Sarah Semy
