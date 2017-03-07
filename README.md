@@ -7,6 +7,7 @@ Teachers:
   Dave Zolotusky
 
 Class: 
+  Franca Ellerman,
   Nora Bulovic, 
   Rebecca Mathew,
   Pip Fletcher,
