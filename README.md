@@ -23,3 +23,4 @@ Class:
   Tiernan Leschner,
   Sue Purohit,
   Amelia Ash,
+  Megan Wilcox,
