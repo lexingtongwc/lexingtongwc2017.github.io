@@ -17,3 +17,4 @@ Class:
   Anika Ruberti,
   Shruti Mohan,
   Lily Aldairy,
+ Harshini Pathivada
