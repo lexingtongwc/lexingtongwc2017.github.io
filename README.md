@@ -19,3 +19,4 @@ Class:
   Lily Aldairy,
  Harshini Pathivada
 Sarah Semy
+  Tiernan Leschner 
