@@ -15,4 +15,5 @@ Class:
   Meenal Vaddeboina,
   Saanvi Mammai,
   Anika Ruberti,
-  Shruti Mohan
+  Shruti Mohan,
+  Lily Aldairy,
