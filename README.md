@@ -13,3 +13,5 @@ Class:
   Pip Fletcher,
   Erin Kim,
   Disha Sankholkar,
+  Amelia Ash
+  
