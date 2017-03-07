@@ -21,3 +21,4 @@ Class:
   Sarah Semy,
   Tiernan Leschner,
   Sue Purohit,
+  Amelia Ash,
