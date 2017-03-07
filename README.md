@@ -7,6 +7,7 @@ Teachers:
   Dave Zolotusky
 
 Class: 
+  Franca Ellerman,
   Nora Bulovic, 
   Rebecca Mathew,
   Pip Fletcher,
@@ -17,7 +18,6 @@ Class:
   Anika Ruberti,
   Shruti Mohan,
   Lily Aldairy,
- Harshini Pathivada
-Sarah Semy
+  Harshini Pathivada
+  Sarah Semy
   Tiernan Leschner 
-  Amelia Ash
