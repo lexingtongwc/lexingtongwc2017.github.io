@@ -7,11 +7,9 @@ Teachers:
   Dave Zolotusky
 
 Class: 
-  Franca Ellerman,
   Nora Bulovic, 
   Rebecca Mathew,
   Pip Fletcher,
   Erin Kim,
   Disha Sankholkar,
-  Amelia Ash
-  
+  Meenal Vaddeboina,
