@@ -10,7 +10,137 @@
  <body>
    <h1><strong>Brick Breaker Game</strong></h1>
    <h4>Created by Sue, Rebecca, and Nora</h4>
-   <h2><a href="https://www.khanacademy.org/computer-programming/brick-breaker-game/5371797854027776">Brick Breaker Game</a
+   <canvas id="processing-canvas" tabindex="0" style="width='5000px' height='5000px'"></canvas>
+<script type="text/processing" data-processing-target="processing-canvas">
+
+var x = 200;
+var y = 200;
+stroke(0);
+strokeWeight(1);
+var speedy = 3;
+var speedx = 3;
+var brick1 = true;
+var brick2 = true;
+var brick3 = true;
+var brick4 = true;
+var brick5 = true;
+var brick6 = true; 
+var brick7 = true;
+var brick8 = true;
+var brick9 = true;
+var brick10 = true;
+var brick11 = true; 
+
+draw = function() {
+    background(255, 0, 0);
+     ellipse(x, y, 10, 10);
+     
+     if(brick1 === false && brick2 === false && brick3 === false && brick4 === false && brick5 === false && brick6 === false && brick7 === false && brick8 === false && brick9 === false && brick10 === false && brick11 === false){
+        x = 200;
+        y = 200;
+     brick1 = true;
+     brick2 = true;
+     brick3 = true;
+     brick4 = true;
+     brick5 = true;
+     brick6 = true; 
+     brick7 = true;
+     brick8 = true;
+     brick9 = true;
+     brick10 = true;
+     brick11 = true;
+     speedx++;
+     speedy++;
+     }
+     
+     
+     if(y > 390){
+        textAlign(CENTER, CENTER);
+        stroke(0);
+        fill(0);
+        text("You are a pretty kind person but I am sorry to say that you lost.", 200,200);   
+     }
+     
+     
+     x = speedx + x;
+     y = speedy + y;
+     
+     
+     if (x > 390 || x < 10) 
+     {speedx = -speedx;}
+     if (y < 10)
+     {speedy = -speedy;}
+     translate(10,0);
+     fill(255);
+     rect(mouseX - 30,300,60,10,5);
+     if(x > mouseX - 30 && x < mouseX + 30 && y > 300 && y < 310){
+        speedy = -speedy;   
+     }
+     fill(255);
+     
+     
+     if (brick1 === true)
+     {rect(10, 10, 60, 20,3);
+        if (x > 9 && x < 71 && y > 9 && y < 31){speedy = -speedy; brick1 = false;}
+     }
+     if (brick2 === true)
+     {rect(100, 10, 60, 20,3);
+        if (x > 99 && x < 161 && y > 9 && y < 31){speedy = -speedy; brick2 = false;}
+     }
+     if (brick3 === true)
+     {rect(190, 10, 60, 20,3);
+        if (x > 189 && x < 251 && y > 9 && y < 31){speedy = -speedy; brick3 = false;}
+     }
+     
+    if (brick4 === true)
+     {rect(280, 10, 60, 20,3);
+        if (x > 279 && x < 341 && y > 9 && y < 31){speedy = -speedy; brick4 = false;}
+     }
+     if (brick5 === true)
+     {rect(55, 50, 60, 20,3);
+        if (x > 54 && x < 116 && y > 49 && y < 71){speedy = -speedy; brick5 = false;}
+     }
+     if (brick6 === true)
+     {rect(145, 50, 60, 20,3);
+        if (x > 144 && x < 206 && y > 49 && y < 71){speedy = -speedy; brick6 = false;}
+     }
+     if (brick7 === true)
+     {rect(235, 50, 60, 20,3);
+        if (x > 234 && x < 296 && y > 49 && y < 71){speedy = -speedy; brick7 = false;}
+     }
+     if (brick8 === true)
+     {rect(10, 90, 60, 20,3);
+        if (x > 9 && x < 71 && y > 89 && y < 111){speedy = -speedy; brick8 = false;}
+     }
+     if (brick9 === true)
+     {rect(100, 90, 60, 20,3);
+        if (x > 99 && x < 161 && y > 89 && y < 111){speedy = -speedy; brick9 = false;}
+     }
+     if (brick10 === true)
+     {rect(190, 90, 60, 20,3);
+        if (x > 189 && x < 251 && y > 89 && y < 111){speedy = -speedy; brick10 = false;}
+     }
+     if (brick11 === true)
+     {rect(280, 90, 60, 20,3);
+        if (x > 279 && x < 341 && y > 89 && y < 111){speedy = -speedy; brick11 = false;}
+     }
+    if (keyIsPressed && keyCode === SHIFT){
+       // println(true);
+        x = 200;
+        y = 200;
+     brick1 = true;
+     brick2 = true;
+     brick3 = true;
+     brick4 = true;
+     brick5 = true;
+     brick6 = true; 
+     brick7 = true;
+     brick8 = true;
+     brick9 = true;
+     brick10 = true;
+     brick11 = true;
+     }
+}; 
   </body>
 
 </html> 
