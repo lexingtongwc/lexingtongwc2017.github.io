@@ -1,4 +1,4 @@
-body {
+ body {
   font-family: "Open Sans", sans-serif;
   background-color: white;
   text-align: center;
@@ -27,4 +27,10 @@ h1 {
 #pink {
   color: white;
   background-color: #F93348;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
