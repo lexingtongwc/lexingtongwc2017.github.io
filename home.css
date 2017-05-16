@@ -19,9 +19,6 @@ a:visited {
 a:hover {
     background-color: #ECE816;
 }
-a:active {
-    background-color: #F93348;
-}
 
 body {
   font-family: "Open Sans", sans-serif;
