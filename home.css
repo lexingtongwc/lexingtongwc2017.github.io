@@ -5,6 +5,7 @@ a:link{
     text-align: center; 
     text-decoration: none;
     display: inline-block;
+    border-style: double;
 }
 
 a:visited {
@@ -14,10 +15,12 @@ a:visited {
     text-align: center; 
     text-decoration: none;
     display: inline-block;
+    border-style: double;
 }
 
 a:hover {
     background-color: #ECE816;
+    border-style: double;
 }
 
 body {
@@ -59,7 +62,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #01426a;
-border-style: double;
 }
 
 li {
