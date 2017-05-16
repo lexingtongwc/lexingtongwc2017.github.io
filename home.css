@@ -1,3 +1,24 @@
+a:link{
+    background-color: #01426a;
+    color: white;
+    padding: 0;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:visited {
+    background-color: #6eceb2;
+    color: white;
+    padding: 0;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #ECE816;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
