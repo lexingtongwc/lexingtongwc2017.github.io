@@ -59,6 +59,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #01426a;
+border-style: double;
 }
 
 li {
