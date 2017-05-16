@@ -5,8 +5,8 @@ a:link{
     text-align: center; 
     text-decoration: none;
     display: inline-block;
-    /*border-style: double;
-    border-color: white;*/
+    border-style: double;
+    border-color: white;
 }
 
 a:visited {
