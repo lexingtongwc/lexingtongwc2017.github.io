@@ -1,7 +1,7 @@
 a:link{
     background-color: #01426a;
     color: white;
-    padding: 0;
+    padding: 14px 16px;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
@@ -10,7 +10,7 @@ a:link{
 a:visited {
     background-color: #6eceb2;
     color: white;
-    padding: 0;
+    padding: 14px 16px;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
