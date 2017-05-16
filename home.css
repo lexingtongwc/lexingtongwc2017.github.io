@@ -79,7 +79,7 @@ li a {
   text-decoration: none;
 }
 
-.active {
+#active {
 	background-color: #F93348;
 }
 
