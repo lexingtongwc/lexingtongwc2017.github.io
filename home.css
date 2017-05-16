@@ -6,7 +6,7 @@ a:link{
     text-decoration: none;
     display: inline-block;
     border-style: double;
-    border-color: #F93348;
+    border-color: white;
 }
 
 a:visited {
@@ -17,13 +17,13 @@ a:visited {
     text-decoration: none;
     display: inline-block;
     border-style: double;
-    border-color: #F93348;
+    border-color: white;
 }
 
 a:hover {
     background-color: #ECE816;
     border-style: double;
-    border-color: #F93348;
+    border-color: white;
 }
 
 body {
